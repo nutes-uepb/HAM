@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignUp</class>
+ <widget class="QDialog" name="SignUp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>567</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Conectividade</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="myrsc.qrc">
+    <normaloff>:/images/icon-nutes.png</normaloff>:/images/icon-nutes.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="label_12">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Sign Up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>3</number>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Name:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditName">
+        <property name="minimumSize">
+         <size>
+          <width>350</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Username:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditUsername">
+        <property name="minimumSize">
+         <size>
+          <width>350</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Password:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditPassword">
+        <property name="minimumSize">
+         <size>
+          <width>350</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>888888</width>
+          <height>42</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Confirm Password:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditConfirmPassword">
+        <property name="minimumSize">
+         <size>
+          <width>350</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>E-Mail:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditEmail">
+        <property name="minimumSize">
+         <size>
+          <width>350</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>Identification:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="editable">
+           <bool>false</bool>
+          </property>
+          <property name="currentText">
+           <string>CPF</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>CPF</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RG</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CNH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ID</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Passport</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Other</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditOtherID"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditID">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhDigitsOnly</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Phone:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditCodPhone">
+          <property name="minimumSize">
+           <size>
+            <width>40</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhDigitsOnly</set>
+          </property>
+          <property name="maxLength">
+           <number>3</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditPhone">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhDigitsOnly</set>
+          </property>
+          <property name="maxLength">
+           <number>10</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="PhoneLayout">
+        <item>
+         <widget class="QLabel" name="label_10">
+          <property name="text">
+           <string>Gender:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonMale">
+          <property name="text">
+           <string>Male</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonFemale">
+          <property name="text">
+           <string>Female</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Birthday:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="spinBoxDayBDay">
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>31</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBoxMonthBDay">
+          <item>
+           <property name="text">
+            <string>Janeiro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Fevereiro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Março</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Abril</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Maio</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Junho</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Julho</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Agosto</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Setembro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Outubro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Novembro</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dezembro</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="spinBoxYearBDay">
+          <property name="minimum">
+           <number>1900</number>
+          </property>
+          <property name="maximum">
+           <number>2016</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Address:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditAddress">
+        <property name="minimumSize">
+         <size>
+          <width>350</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_13">
+          <property name="text">
+           <string>City:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditCity"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_11">
+          <property name="text">
+           <string>Zip Code:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditZipCode">
+          <property name="inputMethodHints">
+           <set>Qt::ImhDigitsOnly</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_14">
+          <property name="text">
+           <string>State:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditState"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <spacer name="horizontalSpacer_10">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonRegister">
+       <property name="text">
+        <string>Register</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonCancel">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditName</tabstop>
+  <tabstop>lineEditUsername</tabstop>
+  <tabstop>lineEditPassword</tabstop>
+  <tabstop>lineEditConfirmPassword</tabstop>
+  <tabstop>lineEditEmail</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>lineEditOtherID</tabstop>
+  <tabstop>lineEditID</tabstop>
+  <tabstop>lineEditCodPhone</tabstop>
+  <tabstop>lineEditPhone</tabstop>
+  <tabstop>radioButtonMale</tabstop>
+  <tabstop>radioButtonFemale</tabstop>
+  <tabstop>spinBoxDayBDay</tabstop>
+  <tabstop>comboBoxMonthBDay</tabstop>
+  <tabstop>spinBoxYearBDay</tabstop>
+  <tabstop>lineEditAddress</tabstop>
+  <tabstop>lineEditCity</tabstop>
+  <tabstop>lineEditZipCode</tabstop>
+  <tabstop>lineEditState</tabstop>
+  <tabstop>pushButtonRegister</tabstop>
+  <tabstop>pushButtonCancel</tabstop>
+ </tabstops>
+ <resources>
+  <include location="myrsc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

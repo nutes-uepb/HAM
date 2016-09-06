@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/busy.gif</file>
+        <file>images/close.png</file>
+        <file>images/locale_flags_USA_Brazil_6081.png</file>
+        <file>images/OK.png</file>
+        <file>images/pairing.gif</file>
+        <file>images/Torchlight_help.png</file>
+        <file>images/marca-nutes.png</file>
+        <file>images/cb_adca21feeca0223cd0e9e1f52900e53e_.png</file>
+        <file>images/icon-bluetooth.png</file>
+        <file>images/icon-signove.png</file>
+        <file>images/icon-nutes.png</file>
+    </qresource>
+</RCC>
