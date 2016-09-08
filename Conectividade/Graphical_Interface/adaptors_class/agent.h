@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------------------------------------
+
+ Copyright (c) 2016 Núcleo de Tecnologias Estratégicas em Saúde (NUTES)/Signove Tecnologia S/A .
+
+------------------------------------------------------------------------------------------------*/
+
 #ifndef AGENT_H
 #define AGENT_H
 #include <QString>

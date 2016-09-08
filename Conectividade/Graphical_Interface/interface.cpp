@@ -1,4 +1,10 @@
- #include "interface.h"
+/*------------------------------------------------------------------------------------------------
+
+ Copyright (c) 2016 Núcleo de Tecnologias Estratégicas em Saúde (NUTES)/Signove Tecnologia S/A .
+
+------------------------------------------------------------------------------------------------*/
+
+#include "interface.h"
 #include "ui_interface.h"
 #include "adaptors_class/agent.h"
 #include "adaptors_class/agentAdaptor.h"

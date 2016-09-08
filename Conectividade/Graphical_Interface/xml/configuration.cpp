@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------------------------------------
+
+ Copyright (c) 2016 Núcleo de Tecnologias Estratégicas em Saúde (NUTES)/Signove Tecnologia S/A .
+
+------------------------------------------------------------------------------------------------*/
+
 #include "configuration.h"
 
 Configuration::Configuration(DataList datalist)

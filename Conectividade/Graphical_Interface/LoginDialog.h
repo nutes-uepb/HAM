@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------------------------------------
+
+ Copyright (c) 2016 Núcleo de Tecnologias Estratégicas em Saúde (NUTES)/Signove Tecnologia S/A .
+
+------------------------------------------------------------------------------------------------*/
+
 #ifndef LOGINDIALOG_H
 #define LOGINDIALOG_H
 
